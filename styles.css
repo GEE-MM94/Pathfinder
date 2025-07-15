@@ -13,7 +13,7 @@ body {
   background: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 98%;
   padding: 10px 20px;
   z-index: 999;
 }
@@ -119,6 +119,16 @@ body {
 }
 
 .form-container {
+  margin-top: 100px;
+  padding: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+.about-content {
   margin-top: 100px;
   padding: 20px;
   max-width: 600px;
