@@ -35,7 +35,7 @@ function search() {
     resultsDiv.innerHTML += `
       <div class="result-item">
         <h3>${loc.name}</h3>
-        <img src="images/${loc.imageUrl}" alt="${loc.name}" />
+        <img src="${loc.imageUrl}" alt="${loc.name}" />
         <p>${loc.description}</p>
       </div>`;
   });
