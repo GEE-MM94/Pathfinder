@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("Soweto-Tour.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 6px;
+  width: 250px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-box button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 998;
+}
+
+.social-bar a {
+  margin: 5px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home-container {
+  display: flex;
+  margin-top: 100px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.home-text {
+  flex: 1;
+  text-align: center;
+}
+
+.book-now {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.results {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.result-item {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.result-item img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.team {
+  display: flex;
+  gap: 20px;
+}
+
+.member {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-container {
+  margin-top: 100px;
+  padding: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
